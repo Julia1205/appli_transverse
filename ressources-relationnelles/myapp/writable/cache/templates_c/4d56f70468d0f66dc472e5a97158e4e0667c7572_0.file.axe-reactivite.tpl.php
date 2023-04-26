@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2023-04-25 06:53:12
+/* Smarty version 4.3.1, created on 2023-04-26 09:36:06
   from '/app/myapp/app/Views/axe-reactivite.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_6447bf28015302_03615473',
+  'unifunc' => 'content_644936d6c7aee6_44905715',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4d56f70468d0f66dc472e5a97158e4e0667c7572' => 
     array (
       0 => '/app/myapp/app/Views/axe-reactivite.tpl',
-      1 => 1682423589,
+      1 => 1682519764,
       2 => 'file',
     ),
   ),
@@ -20,28 +20,63 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6447bf28015302_03615473 (Smarty_Internal_Template $_smarty_tpl) {
+function content_644936d6c7aee6_44905715 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_15106865376447bf28014a15_40631663', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1128132515644936d6bf12d0_80312702', "content");
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "layout.tpl");
 }
 /* {block "content"} */
-class Block_15106865376447bf28014a15_40631663 extends Smarty_Internal_Block
+class Block_1128132515644936d6bf12d0_80312702 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_15106865376447bf28014a15_40631663',
+    0 => 'Block_1128132515644936d6bf12d0_80312702',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
-axe reactivite<?php
+    <div class="container">
+
+    <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Items</th>
+              <th scope="col">Questionnements</th>
+              <th scope="col">Score</th>
+              <th scope="col">Commentaires/Justification (exemples concrets)</th>
+            </tr>
+          </thead>
+          <tbody>
+              <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['objReac']->value, 'item', false, 'key');
+$_smarty_tpl->tpl_vars['item']->do_else = true;
+if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['key']->value => $_smarty_tpl->tpl_vars['item']->value) {
+$_smarty_tpl->tpl_vars['item']->do_else = false;
+?>
+                  <tr>
+                      <th><?php echo $_smarty_tpl->tpl_vars['item']->value->axe_reactivite_item_id;?>
+</th>
+                      <td><?php echo $_smarty_tpl->tpl_vars['item']->value->axe_reactivite_question;?>
+</td>
+                      <td><?php echo $_smarty_tpl->tpl_vars['item']->value->axe_reactivite_score;?>
+</td>
+                      <td><?php echo $_smarty_tpl->tpl_vars['item']->value->axe_reactivite_coment;?>
+</td>
+                  </tr>
+              <?php
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
+          </tbody>
+      </table>
+  </div>
+
+<?php
 }
 }
 /* {/block "content"} */

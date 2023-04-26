@@ -18,8 +18,8 @@ class Synthese_model extends Model{
     //protected $createdField  = '';
     //protected $updatedField  = '';
 
-    public function retrieveAll(){
-        $test = $this->findAll();
+    public function retrieveAll($company_id){
+        $test = $this->where('company_id', $company_id)->findAll();
         return $test;
     }
 }

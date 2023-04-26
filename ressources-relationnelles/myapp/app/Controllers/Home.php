@@ -1,14 +1,16 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\Company_model;
 
 class Home extends BaseController
 {
     public function index()
     {
-        $this->_data['h1'] = "test";
-        $this->_data['h2'] = "test20";
-        //$this->_data['title'] = "Cocktail point";
-        $this->display('home.tpl');
+        $company_model = new Company_model;
+        $objCompanies = $company_model->retrieveAll();
+        $this->_data['companies'] = $objCompanies;
+        $this->_data['h1'] = "Diagnostiques de digitalisation";
+        $this->display('home1.tpl');
     }
 }

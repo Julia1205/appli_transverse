@@ -3,15 +3,15 @@
 namespace App\Models;
 use CodeIgniter\Model;
 
-class Competence_model extends Model{
-    protected $table         = 'axe_competence';
+class Numerique_model extends Model{
+    protected $table         = 'axe_num';
     // Nom du champ de la clé primaire
-    protected $primaryKey    = 'axe_competence_id';
+    protected $primaryKey    = 'axe_num_id';
     // Champs utilisables
-    protected $allowedFields = ['axe_competence_item_id', 'axe_competence_question', 'axe_competence_score', 'axe_competence_coment'];
+    protected $allowedFields = ['axe_num_item_id', 'axe_num_question', 'axe_num_score', 'axe_num_coment'];
  
     // what is returned when this model is initiated 
-    protected $returnType    = 'App\Entities\Competence_entity';
+    protected $returnType    = 'App\Entities\Numerique_entity';
  
     // is using timestamps
     protected $useTimestamps = false;

@@ -9,11 +9,11 @@ class Competence extends BaseController{
     {
     }
 
-    public function index()
+    public function index($company_id)
     {
-        echo('index competence');
         $competence_model = new Competence_model;
-        $objCompetence = $competence_model->retrieveAll();
+        $objCompetence = $competence_model->retrieveAll($company_id);
+        $this->_data['company_id'] = $company_id;
         $this->_data['objsCompetence'] = $objCompetence;
         $this->display('axe-competence.tpl');
     }

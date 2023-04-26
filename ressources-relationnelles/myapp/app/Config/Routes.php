@@ -32,11 +32,11 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->get('/synthese', 'Synthese::test');
-$routes->get('/axe-competence', 'Competence::index');
-$routes->get('/axe-numerique', 'Numerique::index');
-$routes->get('/axe-reactivite', 'Reactivite::index');
-$routes->get('/analyse', 'Analyse::index');
+$routes->get('/synthese/(:num)', 'Synthese::test/$1');
+$routes->get('/axe-competence/(:num)', 'Competence::index/$1');
+$routes->get('/axe-numerique/(:num)', 'Numerique::index/$1');
+$routes->get('/axe-reactivite/(:num)', 'Reactivite::index/$1');
+$routes->get('/analyse/(:num)', 'Analyse::index/$1');
 
 
 
