@@ -2,6 +2,7 @@
 
 namespace App\Models;
 use CodeIgniter\Model;
+use App\Models\Item_model;
 
 class Analyse_model extends Model{
     protected $table         = 'analyse';
@@ -20,6 +21,15 @@ class Analyse_model extends Model{
 
     public function retrieveAll($company_id){
         $test = $this->where('company_id', $company_id)->findAll();
+        $item_model = new Item_model;
+
+        foreach ($test as $key => $value) {
+            $ttest = $item_model->retrieveByID($value->analyse_item_id);
+            $value->analyse_item_id = $ttest;
+        }
+
+
+        
         return $test;
     }
 }

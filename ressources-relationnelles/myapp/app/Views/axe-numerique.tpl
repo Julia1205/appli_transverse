@@ -1,7 +1,6 @@
 {extends file="layout.tpl"}
 {block name="content"}
-    <div class="container">
-
+  <div class="container">
     <table class="table">
           <thead>
             <tr>
@@ -14,14 +13,13 @@
           <tbody>
               {foreach from=$objsNum item=item key=key}
                   <tr>
-                      <th>{$item->axe_numerique_item_id}</th>
-                      <td>{$item->axe_numerique_question}</td>
-                      <td>{$item->axe_numerique_score}</td>
-                      <td>{$item->axe_numerique_coment}</td>
+                      <th>{$item->axe_num_item_id}</th>
+                      <td>{$item->axe_num_question}</td>
+                      <td>{$item->axe_num_score}</td>
+                      <td>{$item->axe_num_coment}</td>
                   </tr>
               {/foreach}
           </tbody>
       </table>
   </div>
-  
 {/block}

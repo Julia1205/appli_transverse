@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2023-04-26 09:28:37
+/* Smarty version 4.3.1, created on 2023-04-26 14:09:48
   from '/app/myapp/app/Views/axe-numerique.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_64493515d6e587_40640255',
+  'unifunc' => 'content_644976fcad2179_43388837',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2ef669a7229c9e17b474ee35d8bd6f6ef8cc0dd8' => 
     array (
       0 => '/app/myapp/app/Views/axe-numerique.tpl',
-      1 => 1682519313,
+      1 => 1682536151,
       2 => 'file',
     ),
   ),
@@ -20,29 +20,28 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_64493515d6e587_40640255 (Smarty_Internal_Template $_smarty_tpl) {
+function content_644976fcad2179_43388837 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_133388398664493515ce9c56_17698843', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1344263994644976fc9b6e95_96046139', "content");
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "layout.tpl");
 }
 /* {block "content"} */
-class Block_133388398664493515ce9c56_17698843 extends Smarty_Internal_Block
+class Block_1344263994644976fc9b6e95_96046139 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_133388398664493515ce9c56_17698843',
+    0 => 'Block_1344263994644976fc9b6e95_96046139',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
-    <div class="container">
-
+  <div class="container">
     <table class="table">
           <thead>
             <tr>
@@ -60,13 +59,13 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['key']->value => 
 $_smarty_tpl->tpl_vars['item']->do_else = false;
 ?>
                   <tr>
-                      <th><?php echo $_smarty_tpl->tpl_vars['item']->value->axe_numerique_item_id;?>
+                      <th><?php echo $_smarty_tpl->tpl_vars['item']->value->axe_num_item_id;?>
 </th>
-                      <td><?php echo $_smarty_tpl->tpl_vars['item']->value->axe_numerique_question;?>
+                      <td><?php echo $_smarty_tpl->tpl_vars['item']->value->axe_num_question;?>
 </td>
-                      <td><?php echo $_smarty_tpl->tpl_vars['item']->value->axe_numerique_score;?>
+                      <td><?php echo $_smarty_tpl->tpl_vars['item']->value->axe_num_score;?>
 </td>
-                      <td><?php echo $_smarty_tpl->tpl_vars['item']->value->axe_numerique_coment;?>
+                      <td><?php echo $_smarty_tpl->tpl_vars['item']->value->axe_num_coment;?>
 </td>
                   </tr>
               <?php
@@ -75,7 +74,6 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
           </tbody>
       </table>
   </div>
-  
 <?php
 }
 }

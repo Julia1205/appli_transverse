@@ -10,7 +10,6 @@ class Numerique extends BaseController{
 
     public function index($company_id)
     {
-        echo('index numérique');
         $this->_data['company_id'] = $company_id;
         $numerique_model = new Numerique_model;
         $objsNum = $numerique_model->retrieveAll($company_id);
