@@ -1,0 +1,42 @@
+version: '2'
+
+services:
+  mysql:
+    image: docker.io/bitnami/mysql:8.0.32
+    environment:
+      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+      - ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_ROOT_PASSWORD=root
+      - MSQL_USER=root
+      - MYSQL_PASSWORD=root
+      - MSQL_DATABASE=s_transverse
+  ressources-relationnelles:
+    image: docker.io/bitnami/codeigniter:4.1.8-debian-10-r32
+    ports:
+      - '80:8000'
+    environment:
+      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+      - ALLOW_EMPTY_PASSWORD=yes
+      - CODEIGNITER_DATABASE_HOST=mysql
+      - CODEIGNITER_DATABASE_PORT_NUMBER=3306
+      - CODEIGNITER_DATABASE_USER=root
+      - CODEIGNITER_DATABASE_NAME=s_transverse
+    volumes:
+      - './ressources-relationnelles:/app'
+    depends_on:
+      - mysql
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    links:
+      - mysql:mysql
+    ports:
+      - 8081:80
+    depends_on:
+      - mysql
+    environment:
+      - PMA_HOST=mysql
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USER=root
+
+  

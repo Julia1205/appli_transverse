@@ -1,0 +1,514 @@
+CRITICAL - 2023-04-25 04:34:46 --> Unable to load template 'file:nav.tpl' in 'file:layout/head.tpl'
+#0 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#1 /app/myapp/writable/cache/templates_c/2e06904c519115e5120bf18f2fdda29e7609e2e5_0.file.head.tpl.php(41): Smarty_Internal_Template->_subTemplateRender()
+#2 /app/myapp/app/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_64479eb6d8e417_79201351()
+#3 /app/myapp/app/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#4 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#5 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#6 /app/myapp/writable/cache/templates_c/080a20f01f810ad289d148b0b69bb771d4dc81e3_0.file.layout.tpl.php(27): Smarty_Internal_Template->_subTemplateRender()
+#7 /app/myapp/app/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_64479eb6cdee20_37720037()
+#8 /app/myapp/app/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#9 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#10 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#11 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_runtime_inheritance.php(116): Smarty_Internal_Template->_subTemplateRender()
+#12 /app/myapp/writable/cache/templates_c/8b493825e57f3d36c4efdeb5b30e364acbfffb58_0.file.home.tpl.php(26): Smarty_Internal_Runtime_Inheritance->endChild()
+#13 /app/myapp/app/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_64479eb6be73d2_64660447()
+#14 /app/myapp/app/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#15 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#16 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#17 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#18 /app/myapp/app/Controllers/BaseController.php(69): Smarty_Internal_TemplateBase->display()
+#19 /app/myapp/app/Controllers/Home.php(10): App\Controllers\BaseController->display()
+#20 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#21 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#22 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#23 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#24 {main}
+CRITICAL - 2023-04-25 04:35:12 --> Unable to load template 'file:nav.tpl' in 'file:layout/head.tpl'
+#0 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#1 /app/myapp/writable/cache/templates_c/2e06904c519115e5120bf18f2fdda29e7609e2e5_0.file.head.tpl.php(41): Smarty_Internal_Template->_subTemplateRender()
+#2 /app/myapp/app/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_64479eb6d8e417_79201351()
+#3 /app/myapp/app/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#4 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#5 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#6 /app/myapp/writable/cache/templates_c/080a20f01f810ad289d148b0b69bb771d4dc81e3_0.file.layout.tpl.php(27): Smarty_Internal_Template->_subTemplateRender()
+#7 /app/myapp/app/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_64479eb6cdee20_37720037()
+#8 /app/myapp/app/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#9 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#10 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#11 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_runtime_inheritance.php(116): Smarty_Internal_Template->_subTemplateRender()
+#12 /app/myapp/writable/cache/templates_c/8b493825e57f3d36c4efdeb5b30e364acbfffb58_0.file.home.tpl.php(26): Smarty_Internal_Runtime_Inheritance->endChild()
+#13 /app/myapp/app/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_64479eb6be73d2_64660447()
+#14 /app/myapp/app/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#15 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#16 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#17 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#18 /app/myapp/app/Controllers/BaseController.php(69): Smarty_Internal_TemplateBase->display()
+#19 /app/myapp/app/Controllers/Home.php(10): App\Controllers\BaseController->display()
+#20 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#21 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#22 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#23 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#24 {main}
+CRITICAL - 2023-04-25 04:38:30 --> Unable to load template 'file:layout/footer.tpl' in 'layout.tpl'
+#0 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#1 /app/myapp/writable/cache/templates_c/080a20f01f810ad289d148b0b69bb771d4dc81e3_0.file.layout.tpl.php(33): Smarty_Internal_Template->_subTemplateRender()
+#2 /app/myapp/app/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_64479f964374c4_89982782()
+#3 /app/myapp/app/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#4 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#5 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(386): Smarty_Internal_Template->render()
+#6 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_runtime_inheritance.php(116): Smarty_Internal_Template->_subTemplateRender()
+#7 /app/myapp/writable/cache/templates_c/8b493825e57f3d36c4efdeb5b30e364acbfffb58_0.file.home.tpl.php(26): Smarty_Internal_Runtime_Inheritance->endChild()
+#8 /app/myapp/app/smarty/libs/sysplugins/smarty_template_resource_base.php(123): content_64479eb6be73d2_64660447()
+#9 /app/myapp/app/smarty/libs/sysplugins/smarty_template_compiled.php(114): Smarty_Template_Resource_Base->getRenderedTemplateCode()
+#10 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#11 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#12 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#13 /app/myapp/app/Controllers/BaseController.php(69): Smarty_Internal_TemplateBase->display()
+#14 /app/myapp/app/Controllers/Home.php(10): App\Controllers\BaseController->display()
+#15 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#16 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#17 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#18 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#19 {main}
+CRITICAL - 2023-04-25 04:44:45 --> Syntax error in template "file:/app/myapp/app/Views/home.tpl"  on line 3 "{$h1} {h2}" unknown tag 'h2'
+#0 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php(1746): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php(550): Smarty_Internal_TemplateCompilerBase->compileTag2()
+#2 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templateparser.php(2104): Smarty_Internal_TemplateCompilerBase->compileTag()
+#3 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templateparser.php(2777): Smarty_Internal_Templateparser->yy_r12()
+#4 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templateparser.php(2872): Smarty_Internal_Templateparser->yy_reduce()
+#5 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_smartytemplatecompiler.php(128): Smarty_Internal_Templateparser->doParse()
+#6 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php(466): Smarty_Internal_SmartyTemplateCompiler->doCompile()
+#7 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php(395): Smarty_Internal_TemplateCompilerBase->compileTemplateSource()
+#8 /app/myapp/app/smarty/libs/sysplugins/smarty_template_compiled.php(184): Smarty_Internal_TemplateCompilerBase->compileTemplate()
+#9 /app/myapp/app/smarty/libs/sysplugins/smarty_template_compiled.php(141): Smarty_Template_Compiled->compileTemplateSource()
+#10 /app/myapp/app/smarty/libs/sysplugins/smarty_template_compiled.php(105): Smarty_Template_Compiled->process()
+#11 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#12 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#13 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#14 /app/myapp/app/Controllers/BaseController.php(69): Smarty_Internal_TemplateBase->display()
+#15 /app/myapp/app/Controllers/Home.php(13): App\Controllers\BaseController->display()
+#16 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#17 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#18 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#19 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#20 {main}
+CRITICAL - 2023-04-25 04:45:45 --> Call to undefined method App\Controllers\Home::_data()
+#0 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#1 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-25 04:46:22 --> Syntax error in template "file:/app/myapp/app/Views/home.tpl"  on line 3 "{$h1} {h2}" unknown tag 'h2'
+#0 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php(1746): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php(550): Smarty_Internal_TemplateCompilerBase->compileTag2()
+#2 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templateparser.php(2104): Smarty_Internal_TemplateCompilerBase->compileTag()
+#3 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templateparser.php(2777): Smarty_Internal_Templateparser->yy_r12()
+#4 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templateparser.php(2872): Smarty_Internal_Templateparser->yy_reduce()
+#5 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_smartytemplatecompiler.php(128): Smarty_Internal_Templateparser->doParse()
+#6 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php(466): Smarty_Internal_SmartyTemplateCompiler->doCompile()
+#7 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php(395): Smarty_Internal_TemplateCompilerBase->compileTemplateSource()
+#8 /app/myapp/app/smarty/libs/sysplugins/smarty_template_compiled.php(184): Smarty_Internal_TemplateCompilerBase->compileTemplate()
+#9 /app/myapp/app/smarty/libs/sysplugins/smarty_template_compiled.php(141): Smarty_Template_Compiled->compileTemplateSource()
+#10 /app/myapp/app/smarty/libs/sysplugins/smarty_template_compiled.php(105): Smarty_Template_Compiled->process()
+#11 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_template.php(217): Smarty_Template_Compiled->render()
+#12 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#13 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#14 /app/myapp/app/Controllers/BaseController.php(69): Smarty_Internal_TemplateBase->display()
+#15 /app/myapp/app/Controllers/Home.php(12): App\Controllers\BaseController->display()
+#16 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#17 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#18 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#19 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#20 {main}
+CRITICAL - 2023-04-25 06:40:56 --> Undefined property: Config\App::$indexPage
+#0 /app/myapp/system/Helpers/url_helper.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/myapp/system/Helpers/url_helper.php(133): _get_uri()
+#2 /app/myapp/system/Debug/Toolbar.php(78): current_url()
+#3 /app/myapp/system/Debug/Toolbar.php(368): CodeIgniter\Debug\Toolbar->run()
+#4 /app/myapp/system/Filters/DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare()
+#5 /app/myapp/system/Filters/Filters.php(196): CodeIgniter\Filters\DebugToolbar->after()
+#6 /app/myapp/system/CodeIgniter.php(429): CodeIgniter\Filters\Filters->run()
+#7 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-25 06:52:42 --> Unable to load template 'file:axe-reactivite.tpl'
+#0 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#1 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#2 /app/myapp/app/Controllers/BaseController.php(69): Smarty_Internal_TemplateBase->display()
+#3 /app/myapp/app/Controllers/Reactivite.php(13): App\Controllers\BaseController->display()
+#4 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Reactivite->index()
+#5 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-25 06:54:15 --> Unable to load template 'file:synthese'
+#0 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#1 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#2 /app/myapp/app/Controllers/BaseController.php(69): Smarty_Internal_TemplateBase->display()
+#3 /app/myapp/app/Controllers/Synthese.php(13): App\Controllers\BaseController->display()
+#4 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#5 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-25 06:56:01 --> Unable to load template 'file:analyse.tpl'
+#0 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(238): Smarty_Internal_Template->render()
+#1 /app/myapp/app/smarty/libs/sysplugins/smarty_internal_templatebase.php(134): Smarty_Internal_TemplateBase->_execute()
+#2 /app/myapp/app/Controllers/BaseController.php(69): Smarty_Internal_TemplateBase->display()
+#3 /app/myapp/app/Controllers/Analyse.php(13): App\Controllers\BaseController->display()
+#4 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Analyse->index()
+#5 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-04-25 08:40:43 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 08:40:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 08:41:46 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 08:41:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 08:42:52 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 08:42:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 08:45:09 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 08:45:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 08:47:04 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 08:47:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 08:48:51 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 08:48:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 08:52:08 --> Error connecting to the database: Connection refused
+CRITICAL - 2023-04-25 08:52:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 08:54:30 --> Error connecting to the database: Connection refused
+CRITICAL - 2023-04-25 08:54:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 08:54:48 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 08:54:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 08:56:38 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 08:56:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 08:56:55 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 08:56:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 08:57:04 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 08:57:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 09:00:20 --> Error connecting to the database: Connection refused
+CRITICAL - 2023-04-25 09:00:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 09:00:30 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 09:00:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 09:00:54 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 09:00:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 09:02:19 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 09:02:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 09:02:59 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 09:02:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->findAll()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 09:04:09 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 09:04:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->first()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 09:04:32 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 09:04:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->first()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 09:05:06 --> Error connecting to the database: Connection refused
+CRITICAL - 2023-04-25 09:05:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->first()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 09:05:18 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 09:05:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->first()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 09:06:44 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 09:06:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->first()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 09:08:02 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 09:08:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->first()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 09:11:40 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 09:11:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->first()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-04-25 09:11:49 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-04-25 09:11:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/myapp/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/myapp/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/myapp/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/myapp/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /app/myapp/app/Models/Synthese_model.php(22): CodeIgniter\BaseModel->first()
+#5 /app/myapp/app/Controllers/Synthese.php(15): App\Models\Synthese_model->retrieveAll()
+#6 /app/myapp/system/CodeIgniter.php(825): App\Controllers\Synthese->test()
+#7 /app/myapp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /app/myapp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/myapp/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
