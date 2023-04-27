@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2023-04-26 09:09:40
+/* Smarty version 4.3.1, created on 2023-04-27 02:24:17
   from '/app/myapp/app/Views/layout/nav.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_644930a4556c72_32012952',
+  'unifunc' => 'content_644a2321ed77a4_10787690',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fb8eef2c666a45526385b6cb177473027fdfbdf8' => 
     array (
       0 => '/app/myapp/app/Views/layout/nav.tpl',
-      1 => 1682518174,
+      1 => 1682580254,
       2 => 'file',
     ),
   ),
@@ -20,10 +20,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_644930a4556c72_32012952 (Smarty_Internal_Template $_smarty_tpl) {
+function content_644a2321ed77a4_10787690 (Smarty_Internal_Template $_smarty_tpl) {
 ?><nav class="navbar navbar-expand-lg bg-body-tertiary">
 <div class="container-fluid">
-  <a class="navbar-brand" href="https://www.kermel.com/">Kermel</a>
+  <a class="navbar-brand" href="<?php echo base_url('/');?>
+">Diagnostic</a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

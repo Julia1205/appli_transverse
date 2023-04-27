@@ -30,4 +30,6 @@
   </div>
 </div>
 </nav>
-<h1>Bienvenu sur le site de diagnostics de digitalisation</h1>
+<div class='container'>
+<h1 class='text-center m-5'>Bienvenu sur le site de diagnostics de digitalisation</h1>
+</div>

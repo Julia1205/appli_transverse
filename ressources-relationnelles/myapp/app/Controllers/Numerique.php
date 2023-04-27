@@ -13,6 +13,7 @@ class Numerique extends BaseController{
         $this->_data['company_id'] = $company_id;
         $numerique_model = new Numerique_model;
         $objsNum = $numerique_model->retrieveAll($company_id);
+        $this->_data['h1'] = 'Axe numérique';
         $this->_data['objsNum'] = $objsNum;
         $this->_data['company_id'] = $company_id;
         $this->display('axe-numerique.tpl');

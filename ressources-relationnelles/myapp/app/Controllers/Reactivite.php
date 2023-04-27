@@ -14,6 +14,8 @@ class Reactivite extends BaseController{
         $this->_data['company_id'] = $company_id;
         $reactivite_model = new Reactivite_model;
         $objReac = $reactivite_model->retrieveAll($company_id);
+        $this->_data['h1'] = 'Axe Réactivité';
+
         $this->_data['objReac'] = $objReac;
 
         $this->display('axe-reactivite.tpl');
