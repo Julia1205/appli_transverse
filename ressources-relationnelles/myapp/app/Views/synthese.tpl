@@ -23,7 +23,7 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+    <script>
   const ctx = document.getElementById('myChart');
   let reactivite = document.getElementsByClassName('reactivite')[0].innerText;
   let competences = document.getElementsByClassName('competences')[0].innerText;

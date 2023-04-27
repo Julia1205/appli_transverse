@@ -37,6 +37,8 @@ $routes->get('/axe-competence/(:num)', 'Competence::index/$1');
 $routes->get('/axe-numerique/(:num)', 'Numerique::index/$1');
 $routes->get('/axe-reactivite/(:num)', 'Reactivite::index/$1');
 $routes->get('/analyse/(:num)', 'Analyse::index/$1');
+$routes->get('/jsonNum/(:num)', 'Numerique::jsonNum/$1');
+$routes->get('/jsonComp/(:num)', 'Competence::jsonComp/$1');
 
 
 
